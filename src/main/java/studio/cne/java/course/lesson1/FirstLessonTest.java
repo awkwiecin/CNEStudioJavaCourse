@@ -3,7 +3,8 @@ package studio.cne.java.course.lesson1;
 public class FirstLessonTest {
 
     public void test() {
-        System.out.println("-- LESSON 1 TEST --");
+
+        System.out.println("-- TESTING LESSON 1 CLASSES --");
         Car car1 = new Car(40, "red", "volvo");
         car1.powerUp();
         car1.drive();
