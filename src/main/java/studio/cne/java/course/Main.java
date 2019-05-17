@@ -1,7 +1,7 @@
 package studio.cne.java.course;
 
 
-import studio.cne.java.course.firstLesson.FirstLessonTest;
+import studio.cne.java.course.lesson1.FirstLessonTest;
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("hello world!");
 
-        System.out.println("-- TESTING LESSON 1 CLASSES --");
+
         FirstLessonTest firstLessonTest = new FirstLessonTest();
         firstLessonTest.test();
 

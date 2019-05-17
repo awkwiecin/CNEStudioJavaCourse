@@ -1,4 +1,4 @@
-package studio.cne.java.course.firstLesson;
+package studio.cne.java.course.lesson1;
 
 public class Dog {
 

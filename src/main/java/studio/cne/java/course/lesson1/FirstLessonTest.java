@@ -1,8 +1,9 @@
-package studio.cne.java.course.firstLesson;
+package studio.cne.java.course.lesson1;
 
 public class FirstLessonTest {
 
     public void test() {
+        System.out.println("-- LESSON 1 TEST --");
         Car car1 = new Car(40, "red", "volvo");
         car1.powerUp();
         car1.drive();
@@ -23,6 +24,7 @@ public class FirstLessonTest {
         Car car2 = new Car ( 40, "white", "ford");
         car2.powerUp();
 
+        System.out.println("-- LESSON 1 TEST END --");
 
     }
 
