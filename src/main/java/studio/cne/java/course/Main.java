@@ -11,7 +11,7 @@ public class Main {
 
 //        FirstLessonTest.test();
 //        SecondLessonTest.test();
-        ThirdLessonTest.test();
+//        ThirdLessonTest.test();
 //        FourthLessonTest.test();
     }
 }
