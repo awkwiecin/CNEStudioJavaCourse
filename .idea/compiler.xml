@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CNEJavaCourse" />
+        <module name="CNEStudioJavaCourse" />
       </profile>
     </annotationProcessing>
   </component>
