@@ -2,7 +2,7 @@ package studio.cne.java.course.lesson2;
 
 public class SecondLessonTest {
 
-    public void test() {
+    public static void test() {
 
         System.out.println("-- LESSON 2 TEST BEGIN --");
         ChessPiece pawn1 = new Pawn("black");

@@ -2,7 +2,7 @@ package studio.cne.java.course.lesson1;
 
 public class FirstLessonTest {
 
-    public void test() {
+    public static void test() {
 
         System.out.println("-- TESTING LESSON 1 CLASSES --");
         Car car1 = new Car(40, "red", "volvo");
