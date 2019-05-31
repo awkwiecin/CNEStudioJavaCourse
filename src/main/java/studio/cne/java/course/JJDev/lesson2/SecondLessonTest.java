@@ -1,4 +1,4 @@
-package studio.cne.java.course.lesson2;
+package studio.cne.java.course.JJDev.lesson2;
 
 public class SecondLessonTest {
 

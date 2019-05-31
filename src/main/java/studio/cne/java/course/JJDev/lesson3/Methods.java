@@ -1,4 +1,4 @@
-package studio.cne.java.course.lesson3;
+package studio.cne.java.course.JJDev.lesson3;
 
 public class Methods {
 
