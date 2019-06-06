@@ -11,7 +11,7 @@ public class AfterVatIncomeCalculation {
         System.out.println("Enter your income");
         double income = reader.nextDouble();
 
-        double taxIncome = Methods.calculateIncomeAfterTaxing(income);
+        double taxIncome = Methods.calculateVAT(income);
         System.out.println("Your taxed income is: "+ taxIncome);
         System.out.println("-- YOUR TAXED PRICE IS CALCULATED --");
 
