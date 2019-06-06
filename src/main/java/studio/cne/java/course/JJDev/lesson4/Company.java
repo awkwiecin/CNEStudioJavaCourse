@@ -1,4 +1,4 @@
-package studio.cne.java.course.JJDev.homeTasks;
+package studio.cne.java.course.JJDev.lesson4;
 
 public class Company {
 

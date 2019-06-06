@@ -1,17 +1,17 @@
-package studio.cne.java.course.JJDev.lesson3;
+package studio.cne.java.course.JJDev.commonConstantsAndMethods;
 
-public class Methods {
+public class CommonMethods {
 
    public static double calculateVAT(double income) {
 
-       return income - income * Constants.PL_VAT;
+       return income - income * CommonConstants.PL_VAT;
 
    }
 
     public static double calculateZUS (double income, double yearsPassed){
-       if (yearsPassed<= Constants.threshold1)
+       if (yearsPassed<= CommonConstants.threshold1)
            return income - 320;
-       else if (yearsPassed<= Constants.threshold2 && yearsPassed> Constants.threshold1)
+       else if (yearsPassed<= CommonConstants.threshold2 && yearsPassed> CommonConstants.threshold1)
            return income - 550;
        else
            return income - 1300;

@@ -1,6 +1,6 @@
-package studio.cne.java.course.JJDev.lesson3;
+package studio.cne.java.course.JJDev.commonConstantsAndMethods;
 
-public class Constants {
+public class CommonConstants {
 
     public static final double PL_VAT = 0.23;
 
