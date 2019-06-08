@@ -27,9 +27,9 @@ public class Student {
         return peGrade;
     }
 
-    public Student(int physicsGrade, int mathgrade, int englishGrade, int polishGrade, int peGrade) {
+    public Student(int physicsGrade, int mathGrade, int englishGrade, int polishGrade, int peGrade) {
         this.physicsGrade = physicsGrade;
-        this.mathGrade = mathgrade;
+        this.mathGrade = mathGrade;
         this.englishGrade = englishGrade;
         this.polishGrade = polishGrade;
         this.peGrade = peGrade;
