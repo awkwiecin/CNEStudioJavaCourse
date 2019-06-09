@@ -26,7 +26,12 @@ public class CommonMethods {
     }
 
     public static double calculateCosts (double income, double costs){
+
        return income - costs;
+    }
+
+    public static double gradeMeanCounter (int physicsGrade, int mathGrade, int englishGrade, int polishGrade, int peGrade){
+       return (physicsGrade + mathGrade + englishGrade + polishGrade + peGrade)/5;
     }
 
 }
