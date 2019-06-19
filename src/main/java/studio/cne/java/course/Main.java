@@ -1,8 +1,7 @@
 package studio.cne.java.course;
 
 
-import studio.cne.java.course.JJDev.homeTasks.homeTask1.Hometask1Test;
-import studio.cne.java.course.JJDev.lesson4.FourthLessonTest;
+import studio.cne.java.course.JJDev.homeTasks.homeTask2.Hometask2Test;
 
 public class Main {
 
@@ -11,9 +10,9 @@ public class Main {
 //         FirstLessonTest.test();
 //         SecondLessonTest.test();
 //         ThirdLessonTest.test();
-           //FourthLessonTest.test();
-        Hometask1Test.test();
+        //FourthLessonTest.test();
+        Hometask2Test.test();
 
 
-     }
+    }
 }

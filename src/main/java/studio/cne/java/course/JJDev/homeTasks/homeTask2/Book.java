@@ -54,4 +54,15 @@ public class Book {
     public boolean isRented() {
         return rented;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", year=" + year +
+                ", translator='" + translator + '\'' +
+                ", rented=" + rented +
+                '}';
+    }
 }
