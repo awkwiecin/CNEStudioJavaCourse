@@ -65,6 +65,11 @@ public class CommonMethods {
 
     }
 
-
+    public static void printArray(int[] array){
+        for (int x: array) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
 
 }
