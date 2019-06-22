@@ -44,7 +44,7 @@ public class Library {
                if (title.equals(this.books.get(i).getTitle())) {
                     if (this.books.get(i).isRented() == true) {
                          this.books.get(i).setRented(false);
-                         System.out.println("The book " + this.books.get(i).getTitle() + " written by" + this.books.get(i).getAuthor() + "is back in library stock");
+                         System.out.println("The book " + this.books.get(i).getTitle() + " written by " + this.books.get(i).getAuthor() + " is back in library stock");
                          break;
                     } else {
                          System.out.println("!The book " + this.books.get(i).getTitle() + " is already in library stock!");
