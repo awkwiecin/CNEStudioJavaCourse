@@ -64,6 +64,23 @@ public class CommonMethods {
 
 
     }
+    public static boolean checkBookPresence (Library library, String title) {
+
+        for (int i = 0; i < library.getBooks().size(); i++) {
+
+            if (title.equals(library.getBooks().get(i).getTitle())) {
+                if (library.getBooks().get(i).isRented() == true) {
+                    return false;
+                } else {
+                    library.getBooks().get(i).setRented(true);
+                    return true;
+                }
+            } else {
+                continue;
+            }
+        }
+        return false;
+    }
 
     public static void printArray(int[] array){
         for (int x: array) {

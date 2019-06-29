@@ -16,7 +16,7 @@ public class Hometask2Test {
 
        // library.printLibraryStock();
 
-        library.rent("Małe życie");
+        library.rentWithFunction("Małe życie");
         library.receive("Tajemna historia");
         library.receive("Małe życie");
 
