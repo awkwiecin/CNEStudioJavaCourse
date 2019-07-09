@@ -3,7 +3,7 @@ package studio.cne.java.course.JJDev.homeTasks.homeTask2;
 //import java.util.ArrayList;
 //import java.util.List;
 
-import studio.cne.java.course.JJDev.commonConstantsAndMethods.CommonMethods;
+import studio.cne.java.course.JJDev.common.CommonMethods;
 
 public class Hometask2Test {
 

@@ -1,4 +1,4 @@
-package studio.cne.java.course.JJDev.commonConstantsAndMethods;
+package studio.cne.java.course.JJDev.common;
 
 import studio.cne.java.course.JJDev.homeTasks.homeTask1.*;
 import studio.cne.java.course.JJDev.homeTasks.homeTask2.Book;
@@ -88,5 +88,28 @@ public class CommonMethods {
         }
         System.out.println();
     }
+
+    public static int[] prefixSums(int[] array){
+       int [] prefixSumsArray = new int[array.length+1];
+       prefixSumsArray[0]=0;
+
+       for (int i = 0; i<array.length; i++){
+           prefixSumsArray[i+1]=prefixSumsArray[i]+array[i];
+        }
+
+       return prefixSumsArray;
+    }
+
+    public static int[] suffixSums(int[] array){
+        int [] suffixSumsArray = new int[array.length+1];
+        suffixSumsArray[suffixSumsArray.length-1]=0;
+
+        for (int i = suffixSumsArray.length-1; i>0; i--){
+            suffixSumsArray[i-1]=suffixSumsArray[i]+array[i-1];
+        }
+
+        return suffixSumsArray;
+    }
+
 
 }

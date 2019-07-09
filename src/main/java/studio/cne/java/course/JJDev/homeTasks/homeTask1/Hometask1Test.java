@@ -1,8 +1,6 @@
 package studio.cne.java.course.JJDev.homeTasks.homeTask1;
 
-import studio.cne.java.course.JJDev.commonConstantsAndMethods.CommonMethods;
-import studio.cne.java.course.JJDev.lesson4.Company;
-import studio.cne.java.course.JJDev.lesson4.PITCalculator;
+import studio.cne.java.course.JJDev.common.CommonMethods;
 
 import java.util.ArrayList;
 import java.util.List;

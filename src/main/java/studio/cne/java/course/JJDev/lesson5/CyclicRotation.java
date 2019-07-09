@@ -1,6 +1,6 @@
 package studio.cne.java.course.JJDev.lesson5;
 
-import studio.cne.java.course.JJDev.commonConstantsAndMethods.CommonMethods;
+import studio.cne.java.course.JJDev.common.CommonMethods;
 
 public class CyclicRotation {
     public static void test (){

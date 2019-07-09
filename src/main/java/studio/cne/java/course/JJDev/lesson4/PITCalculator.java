@@ -1,6 +1,6 @@
 package studio.cne.java.course.JJDev.lesson4;
 
-import studio.cne.java.course.JJDev.commonConstantsAndMethods.CommonMethods;
+import studio.cne.java.course.JJDev.common.CommonMethods;
 
 public class PITCalculator {
 

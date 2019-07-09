@@ -1,6 +1,6 @@
 package studio.cne.java.course.JJDev.homeTasks.homeTask2;
 
-import studio.cne.java.course.JJDev.commonConstantsAndMethods.CommonMethods;
+import studio.cne.java.course.JJDev.common.CommonMethods;
 
 import java.util.ArrayList;
 import java.util.List;
