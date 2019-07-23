@@ -1,4 +1,4 @@
-package studio.cne.java.course.JDDev.homeTasks.homeTask2;
+package studio.cne.java.course.JSDev.homeTasks.homeTask2;
 
 public class HomeTask2Test {
 
